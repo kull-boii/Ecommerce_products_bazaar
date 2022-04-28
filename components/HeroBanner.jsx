@@ -1,9 +1,21 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
 const HeroBanner = () => {
   return (
-    <div>HeroBanner</div>
-  )
-}
+    <div className="hero-banner-container">
+      <div>
+        <p className="beats-solo">SMALL TEXT</p>
+        <h3>MID TEXT</h3>
+        <img src="" alt="headphones" className="hero-banner-image" />
+        <div>
+          <Link href="/prodcut/ID">
+            <button type="button">Button text</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default HeroBanner
+export default HeroBanner;
