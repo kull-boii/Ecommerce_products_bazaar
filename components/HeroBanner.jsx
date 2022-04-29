@@ -12,6 +12,10 @@ const HeroBanner = () => {
           <Link href="/prodcut/ID">
             <button type="button">Button text</button>
           </Link>
+          <div className="desx">
+            <h5>Description</h5>
+            <p>DESCRIPTION</p>
+          </div>
         </div>
       </div>
     </div>
